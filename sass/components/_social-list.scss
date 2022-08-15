@@ -1,6 +1,5 @@
 .social-list {
-    display: flex;
-    justify-content: center;
+    @extend %flex-centre;
     gap: 10px;
 
 }
@@ -10,8 +9,7 @@
     height: 44px;
     border-radius: 50%;
     background-color: #FFFFFF;
-    display: flex;
-    justify-content: center;
+    @extend %flex-centre;
     align-items: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -47,8 +45,7 @@
     height: 44px;
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.1);
-    display: flex;
-    justify-content: center;
+    @extend %flex-centre;
     align-items: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }

@@ -9,8 +9,7 @@
 }
 
 .customers__list {
-    display: flex;
-    justify-content: center;
+    @extend %flex-centre;
     gap: 30px;
 
 }
@@ -27,11 +26,10 @@
 
 
 .customers__link {
-    display: flex;
+    @extend %flex-centre;
     width: 100%;
     height: 100%;
     align-items: center;
-    justify-content: center;
     fill: #AFB1B8;
 
     border: 1px solid #afb1b8;

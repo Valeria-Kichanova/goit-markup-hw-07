@@ -29,9 +29,8 @@
     background-color: rgba(47, 48, 58, 0.8);
 
 
-    display: flex;
+    @extend %flex-centre;
     align-items: center;
-    justify-content: center;
 
     width: 370px;
     height: 70px;
